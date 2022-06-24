@@ -1,0 +1,39 @@
+.company-title {
+	margin-bottom: 50px;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+}
+
+.company-list {
+	display: flex;
+}
+
+.company-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.company-position {
+	position: relative;
+	width: 100%;
+	height: 294px;
+}
+
+.company-label {
+	position: absolute;
+	bottom: 0;
+
+	width: 100%;
+	height: 70px;
+	background-color: rgba(47, 48, 58, 0.8);
+}
+
+.company-label-text {
+	width: 100%;
+	height: 100%;
+
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--secondary-title-color);
+}
