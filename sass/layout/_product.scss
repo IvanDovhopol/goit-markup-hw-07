@@ -69,7 +69,7 @@
 }
 
 .product-info__name {
-	@include font(18px, null, 2, 0.06);
+	@include font(18px, null, 2, 0.06em);
 
 	margin-bottom: 4px;
 	color: var(--primory-title-color);
