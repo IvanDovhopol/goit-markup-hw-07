@@ -2,19 +2,19 @@
 	padding-top: 94px;
 }
 
-.feature-content {
+.feature-list {
 	display: flex;
 }
 
-.feature-item {
+.feature-list__item {
 	width: 270px;
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
-.feature-item:not(:last-child) {
-	margin-right: 30px;
-}
-
-.feature-icons {
+.feature-list__icons {
 	margin-bottom: 30px;
 	height: 120px;
 
@@ -22,14 +22,14 @@
 	background-color: var(--feature-bc-icons);
 }
 
-.feature-item-title {
+.feature-list__title {
 	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
 
-.feature-item-text {
+.feature-list__desc {
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--all-text-color);
