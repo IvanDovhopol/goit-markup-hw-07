@@ -56,8 +56,8 @@
 	width: 322px;
 	min-height: 168px;
 
-	font-size: 18px;
-	line-height: 1.56;
+	@include font(18px, null, 1.56, null);
+
 	color: var(--product-description-color);
 }
 
@@ -69,15 +69,13 @@
 }
 
 .product-info__name {
+	@include font(18px, null, 2, 0.06);
+
 	margin-bottom: 4px;
-	font-size: 18px;
-	line-height: 2;
-	letter-spacing: 0.06em;
 	color: var(--primory-title-color);
 }
 
 .product__working {
-	font-size: 16px;
 	line-height: 1.88;
 	color: var(--all-text-color);
 }

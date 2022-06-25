@@ -23,14 +23,12 @@
 }
 
 .feature-list__title {
+	@include font(14px, null, 1.14, null);
 	margin-bottom: 10px;
-	font-size: 14px;
-	line-height: 1.14;
 	text-transform: uppercase;
 }
 
 .feature-list__desc {
-	font-size: 14px;
-	line-height: 1.71;
+	@include font(14px, null, 1.71, null);
 	color: var(--all-text-color);
 }

@@ -1,9 +1,7 @@
 .footer-form__slogan {
+	@include font(14px, 700, 1.14, null);
+
 	margin-bottom: 20px;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--secondary-title-color);
 }
@@ -37,11 +35,9 @@
 	padding: 0 0 0 29px;
 	margin-left: 12px;
 
+	@include font(null, 700, 1.88, 0.06em);
+
 	font-family: inherit;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
-	letter-spacing: 0.06em;
 	cursor: pointer;
 	background-color: var(--accent-color);
 	color: var(--accent-button-text-color);
